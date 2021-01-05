@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Готель Рай | м.Новомиргород</title>
+</head>
+
+<body>
+  <div class="container-preloader">
+    <div class="item-1"></div>
+    <div class="item-2"></div>
+    <div class="item-3"></div>
+    <div class="item-4"></div>
+    <div class="item-5"></div>
+  </div>
+  <header class="header">
+    <div class="container full">
+      <div class="closeMobileNav hide"></div>
+      <div class="header__content">
+        <div class="header__hotel"> <a class="header__link" href="/">Готель Рай</a></div>
+        <div class="header__nav">
+          <ul>
+            <li><a href="/">Головна</a></li>
+            <li><a href="/about">Про нас</a></li>
+            <li><a href="/rooms">Номери</a></li>
+            <li><a href="/reviews">Відгуки</a></li>
+            <li class="active"><a href="/contacts">Контакти</a></li>
+            <li><a href="/book">Бронювання</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <button class="closeHead"></button>
+  <button class="phone">
+    <div class="phone__icon"><img src="img/icons/phone-call.svg" alt="" /></div>
+    <div class="phone__pulsation"></div>
+  </button>
+  <div class="phone__message message"><a class="message__item" href="tel:+380980001479"><span class="message__icon">
+        <img src="img/icons/message-1.svg" alt="" /></span>
+      <p class="message__text">+380980001479</p>
+    </a><a class="message__item" href="tel:+380679067431"><span class="message__icon"> <img
+          src="img/icons/message-1.svg" alt="" /></span>
+      <p class="message__text">+380679067431</p>
+    </a><a class="message__item" href="#" id="callback"><span class="message__icon"> <img
+          src="img/icons/message-call.svg" alt="" /></span>
+      <p class="message__text">Передзвоніть мені</p>
+    </a></div>
+  <div class="phone__callback callback">
+    <button class="callback__close"></button>
+    <div class="callback__title">Будь ласка, введіть ваш номер телефону:</div>
+    <div class="callback__content">
+      <form action="#" method="get">
+        <div class="callback__form">
+          <input class="callback__phone" type="tel" name="phone" placeholder="+380-XXX-XX-XX" />
+          <input class="callback__submit" type="submit" value="Чекаю дзвінок" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <section class="contacts">
+    <div class="contacts__header">
+      <div class="container">
+        <h1 class="contacts__title">Контакти</h1>
+        <h2 class="contacts__subtitle">Ми відкриті 24/7</h2>
+      </div><a class="contacts__btn" href="#" data-scroll="#write-mess">Напишіть нам</a>
+    </div>
+    <div class="contacts__content">
+      <div class="container">
+        <div class="contacts__flex">
+          <div class="contacts__block contacts-content">
+            <h3 class="contacts-content__head">Зв'яжіться з нами</h3>
+            <div class="contacts-content__item">
+              <h4 class="contacts-content__title">Номери телефонів</h4>
+              <div class="contacts-content__text">+380980001479</div>
+              <div class="contacts-content__text">+380679067431</div>
+            </div>
+            <div class="contacts-content__item">
+              <h4 class="contacts-content__title">Електронна адреса</h4>
+              <div class="contacts-content__text">hotelrai@gmail.com</div>
+            </div>
+            <div class="contacts-content__item">
+              <h4 class="contacts-content__title">Адреса</h4>
+              <div class="contacts-content__text">м.Новомиргород, вул. Горького 6/71</div>
+            </div>
+          </div>
+          <div class="contacts__map">
+            <div class="contacts__frame"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.2191339421697!2d31.647654596876265!3d48.815880223088136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d1a68c1f819a6b%3A0xb77c475fa96776b0!2sRay!5e0!3m2!1sru!2sua!4v1608208697558!5m2!1sru!2sua"
+                width="1200" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contacts__send forms">
+      <div class="container">
+        <h2 class="forms__title">Форма зворотнього зв'язку</h2>
+        <h3 class="forms__subtitle">Напишіть нам.</h3>
+        <form class="forms__form contacts" action="" method="post" id="write-mess">
+          <div class="forms__inputs">
+            <div class="forms__item">
+              <label for="nameMessage">Ім'я*</label>
+              <input type="text" name="nameMessage" id="nameMessage" />
+            </div>
+            <div class="forms__item">
+              <label for="emailMessage">E-mail*</label>
+              <input type="email" name="emailMessage" id="emailMessage" />
+            </div>
+            <div class="forms__item">
+              <label for="telMessage">Телефон</label>
+              <input type="tel" name="telMessage" id="telMessage" />
+            </div>
+          </div>
+          <div class="forms__textarea">
+            <label for="message">Повідомлення</label>
+            <textarea name="message" cols="30" rows="10" id="message"></textarea>
+          </div>
+          <div class="forms__btn">
+            <button>Відправити</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__flex">
+        <div class="footer__contacts">
+          <h3 class="footer__title">Контакти</h3>
+          <div class="footer__item">Тел.:+380980001479</div>
+          <div class="footer__item">Тел.:+380679067431</div>
+          <div class="footer__item">hotelrai@gmail.com</div>
+        </div>
+        <div class="footer__weather weather">
+          <h3 class="weather__title"></h3>
+          <div class="weather__content">
+            <div class="weather__temp"></div>
+            <div class="weather__img"></div>
+          </div>
+          <div class="weather__footer">
+            <div class="weather__humidity"></div>
+            <div class="weather__wind"></div>
+          </div>
+        </div>
+        <div class="footer__adress">
+          <h3 class="footer__title">Адреса</h3>
+          <div class="footer__item">26001, м.Новомиргород, Кіровоградської обл., вул. Горького 6/71</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright"> © 2020 Готель Рай </div>
+  </footer>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>

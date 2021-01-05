@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>Готель Рай | Про нас</title>
+</head>
+
+<body>
+  <div class="container-preloader">
+    <div class="item-1"></div>
+    <div class="item-2"></div>
+    <div class="item-3"></div>
+    <div class="item-4"></div>
+    <div class="item-5"></div>
+  </div>
+  <header class="header">
+    <div class="container full">
+      <div class="closeMobileNav hide"></div>
+      <div class="header__content">
+        <div class="header__hotel"> <a class="header__link" href="/">Готель Рай</a></div>
+        <div class="header__nav">
+          <ul>
+            <li><a href="/">Головна</a></li>
+            <li class="active"><a href="/about">Про нас</a></li>
+            <li><a href="/rooms">Номери</a></li>
+            <li><a href="/reviews">Відгуки</a></li>
+            <li><a href="/contacts">Контакти</a></li>
+            <li><a href="/book">Бронювання</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <button class="closeHead"></button>
+  <button class="phone">
+    <div class="phone__icon"><img src="img/icons/phone-call.svg" alt="" /></div>
+    <div class="phone__pulsation"></div>
+  </button>
+  <div class="phone__message message"><a class="message__item" href="tel:+380980001479"><span class="message__icon">
+        <img src="img/icons/message-1.svg" alt="" /></span>
+      <p class="message__text">+380980001479</p>
+    </a><a class="message__item" href="tel:+380679067431"><span class="message__icon"> <img
+          src="img/icons/message-1.svg" alt="" /></span>
+      <p class="message__text">+380679067431</p>
+    </a><a class="message__item" href="#" id="callback"><span class="message__icon"> <img
+          src="img/icons/message-call.svg" alt="" /></span>
+      <p class="message__text">Передзвоніть мені</p>
+    </a></div>
+  <div class="phone__callback callback">
+    <button class="callback__close"></button>
+    <div class="callback__title">Будь ласка, введіть ваш номер телефону:</div>
+    <div class="callback__content">
+      <form action="#" method="get">
+        <div class="callback__form">
+          <input class="callback__phone" type="tel" name="phone" placeholder="+380-XXX-XX-XX" />
+          <input class="callback__submit" type="submit" value="Чекаю дзвінок" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <section class="about">
+    <div class="container">
+      <h1 class="about__title">Про нас</h1>
+      <h2 class="about__subtitle">Міні-готель "Рай", як готель економ-класу, зручний для відпочинку відрядних,
+        бізнесменів і гостів нашого міста.</h2>
+      <div class="about__flex">
+        <div class="about__content">
+          <h3 class="about__point">Інфраструктура</h3>
+          <div class="about__point-text">Готель "Рай" розташований в північній частині Новомиргорода (Златопіль). Зручне
+            розташування готелю дозволяє дістатися за мінімальний час в будь-яку точку міста та району. Буквально в двох
+            кроках:</div>
+          <ul>
+            <li>автостанція;</li>
+            <li>стоянка легкового таксі;</li>
+            <li>стоянка маршрутного таксі.</li>
+          </ul>
+          <h3 class="about__point">Сервіс</h3>
+          <div class="about__point-text">Сервіс в готелі «Рай» відповідає європейським стандартам:</div>
+          <ul>
+            <li>зручні, м'які меблі і сучасна сантехніка (душ, туалет) в кожному номері;</li>
+            <li>необхідні побутові прилади;</li>
+            <li>гаряча і холодна вода цілодобово;</li>
+            <li>зберігання цінностей у сейфі адміністрації.</li>
+          </ul>
+          <h3 class="about__point">Послуги</h3>
+          <div class="about__point-text">Сервіс в готелі «Рай» відповідає європейським стандартам:</div>
+          <ul>
+            <li>перукарня, магазини, салони оплати мобільного зв'язку;</li>
+            <li>сніданки, обіди, вечері в кращому кафе Новомиргорода "Люкс";</li>
+            <li>безкоштовний, безлімітний Wi-Fi інтернет цілодобово.</li>
+          </ul>
+        </div>
+        <div class="about__photo"><img src="img/about.webp" alt="Готель" /></div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__flex">
+        <div class="footer__contacts">
+          <h3 class="footer__title">Контакти</h3>
+          <div class="footer__item">Тел.:+380980001479</div>
+          <div class="footer__item">Тел.:+380679067431</div>
+          <div class="footer__item">hotelrai@gmail.com</div>
+        </div>
+        <div class="footer__weather weather">
+          <h3 class="weather__title"></h3>
+          <div class="weather__content">
+            <div class="weather__temp"></div>
+            <div class="weather__img"></div>
+          </div>
+          <div class="weather__footer">
+            <div class="weather__humidity"></div>
+            <div class="weather__wind"></div>
+          </div>
+        </div>
+        <div class="footer__adress">
+          <h3 class="footer__title">Адреса</h3>
+          <div class="footer__item">26001, м.Новомиргород, Кіровоградської обл., вул. Горького 6/71</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright"> © 2020 Готель Рай </div>
+  </footer>
+  <script src="js/script.min.js"></script>
+</body>
+
+</html>
