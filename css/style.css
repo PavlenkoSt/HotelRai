@@ -1604,6 +1604,7 @@ button.swiper-pagination-bullet {
 }
 
 .icons__text {
+  font-size: 15px;
   font-style: italic;
   color: #fff;
   text-align: center;
@@ -4104,10 +4105,6 @@ body.no-scroll {
     font-size: calc(14px + 2 * (100vw / 2560));
   }
 
-  .icons__text {
-    font-size: calc(16px + 4 * (100vw / 2560));
-  }
-
   .footer__copyright {
     font-size: calc(12px + 2 * (100vw / 2560));
   }
@@ -5075,10 +5072,6 @@ body.no-scroll {
 
   .service-carts__text {
     font-size: calc(14px + 3.4 * ((100vw - 320px) / 2560));
-  }
-
-  .icons__text {
-    font-size: calc(16px + 6.8 * ((100vw - 320px) / 2560));
   }
 
   .footer__copyright {
