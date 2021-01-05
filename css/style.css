@@ -4217,6 +4217,16 @@ body.no-scroll {
   }
 }
 
+@media (min-width: 768px) {
+  .header__nav ul li.active {
+    background-color: #fff;
+  }
+
+  .header__nav ul li.active a {
+    color: #a0282e;
+  }
+}
+
 @media (min-width: 992px) {
   .swiper-pagination-bullet:hover {
     border: 5px solid #fff;
@@ -4558,14 +4568,6 @@ body.no-scroll {
     height: 100px;
   }
 
-  .header__nav ul li.active {
-    background-color: #fff;
-  }
-
-  .header__nav ul li.active a {
-    color: #a0282e;
-  }
-
   .closeHead {
     display: none;
   }
@@ -4700,6 +4702,14 @@ body.no-scroll {
     -webkit-transition: margin 0.5s ease, opacity 0.3s ease;
     -o-transition: margin 0.5s ease, opacity 0.3s ease;
     transition: margin 0.5s ease, opacity 0.3s ease;
+  }
+
+  .header__nav.open ul li.active {
+    background-color: #fff;
+  }
+
+  .header__nav.open ul li.active a {
+    color: #a0282e;
   }
 
   .header__nav.open ul li:nth-child(n + 4) {

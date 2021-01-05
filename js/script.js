@@ -9691,7 +9691,9 @@ document.addEventListener('DOMContentLoaded', function () {
         if (!this.classList.contains('open')) {
             this.classList.add('open');
             closeMobileNavBtn.classList.remove('hide');
-            event.preventDefault();
+            if (window.innerWidth <= 768) {
+                event.preventDefault();
+            }
         } else {
             return false
         }
